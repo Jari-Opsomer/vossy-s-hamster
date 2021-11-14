@@ -1,0 +1,19 @@
+{
+  "name": "vossy-s-hamster",
+  "version": "1.0.0",
+  "description": "Vossy's Hamster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vossy",
+    "vossygamer",
+    "hamster"
+  ],
+  "author": "VossyGamer",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
