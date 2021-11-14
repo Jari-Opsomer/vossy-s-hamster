@@ -1,6 +1,6 @@
 // GEKOPIEERD VAN ANDERE BOT //
 
-const botConfig = require('./botconfig.json');
+const botConfig = require('./botConfig.json');
 const Discord = require('discord.js');
 // const fs = require('fs');
 
