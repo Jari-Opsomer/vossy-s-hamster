@@ -1,3 +1,21 @@
+// Standaard instellingen: //
+// GEKOPIEERD VAN ANDERE BOT //
+
+const botConfig = require('./botconfig.json');
+const Discord = require('discord.js');
+// const fs = require('fs');
+
+const client = new Discord.Client();
+client.commands = new Discord.Collection();
+client.aliases = new Discord.Collection();
+
+client.once('ready', () => {
+    console.log(`${client.user.username} is online.`);
+
+});
+
+// ORIGINELE CODE //
+
 const { Client, Intents } = require("discord.js");
 const botConfig = require("./botConfig.json");
 
@@ -27,5 +45,4 @@ client.on("messageCreate", message => {
 
 });
 
-client.login(process.env.CLIENT_TOKEN);
-client.login(process.env.token);
+client.login(process.env.token)
