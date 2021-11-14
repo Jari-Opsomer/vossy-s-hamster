@@ -23,8 +23,9 @@ client.on("messageCreate", message => {
     if(command == `${prefix}hi`) {
         return message.channel.send("**Hi, I'm Vossy's hamster!** 🐹");
 
-    }
+    };
 
 });
 
-client.login(process.env.token)
+client.login(process.env.CLIENT_TOKEN);
+client.login(process.env.token);
