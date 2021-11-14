@@ -1,4 +1,3 @@
-// Standaard instellingen: //
 // GEKOPIEERD VAN ANDERE BOT //
 
 const botConfig = require('./botconfig.json');
@@ -16,17 +15,17 @@ client.once('ready', () => {
 
 // ORIGINELE CODE //
 
-const { Client, Intents } = require("discord.js");
-const botConfig = require("./botConfig.json");
+//const { Client, Intents } = require("discord.js");
+//const botConfig = require("./botConfig.json");
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
+//const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
 
-client.once("ready", () => {
+//client.once("ready", () => {
 
-    console.log(`${client.user.username} is online.`);
-    client.user.setActivity("with my wheel", {type: "PLAYING"});
+    //console.log(`${client.user.username} is online.`);
+    //client.user.setActivity("with my wheel", {type: "PLAYING"});
 
-});
+//});
 
 client.on("messageCreate", message => {
 
